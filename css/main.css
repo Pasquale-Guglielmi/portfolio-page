@@ -343,3 +343,14 @@ li {
         font-size: 14px;
     }
 }
+
+/* making photos fit container for viewport width bigger than 1280px */
+
+@media screen and (min-width: 1281px) {
+    .main-image,
+    .image1,
+    .image2,
+    .image3 {
+        width: 100%;
+    }
+}
