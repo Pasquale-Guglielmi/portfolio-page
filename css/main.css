@@ -361,3 +361,13 @@ li {
     padding: 10px;
     text-transform: capitalize;
 }
+
+.footer {
+    text-align: center;
+}
+
+.footer .footer-link {
+    color: #ccc;
+    width: 10vw;
+    font-size: 30px;
+}
