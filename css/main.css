@@ -295,6 +295,7 @@ li {
     margin-bottom: 40px;
     padding: 0;
     text-align: center;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
@@ -351,6 +352,31 @@ li {
     .image3 {
         width: 100%;
     }
+}
+
+/* modals styles */
+
+.modal-content {
+    background-color: rgba(0, 0, 0, .6);
+    border: none;
+    border-radius: 2%;
+    box-shadow: 0 0 10px #aaa;
+    color: #ccc;
+}
+
+.close {
+    color: #ccc;
+    opacity: .9;
+}
+
+.modal-body,
+.modal-header {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.modal-body {
+    text-align: center;
+    text-transform: none;
 }
 
 /* Footer styles */

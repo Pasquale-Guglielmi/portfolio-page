@@ -1,109 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="header-logo">
-                        <img class="img-responsive mylogo" src="images/logo2.svg" alt="three spanners rotating">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="header-logo">
+                            <img class="img-responsive mylogo" src="images/logo2.svg" alt="three spanners rotating">
+                        </div>
                     </div>
-                </div>
-                <div class="navbar-personal-info">
-                    <h1 class="navbar-h1">guglielmi pasquale</h1>
-                    <p class="h4 navbar-h4">front end student</p>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a class="navbar-nav-link" href="index.html">home</a>
-                        </li>
-                        <li>
-                            <a class="navbar-nav-link" href="#">about me</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle navbar-nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">contact<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="mailto:guglielmipasquale@yahoo.it" target="_top" class="fa fa-envelope-o navbar-nav-link" aria-hidden="true"></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="row main-box">
-                <div class="col-xs-12 main-image-box">
-                    <picture>
-                        <source class="main-image" media="(min-width: 981px)" srcset="images/sculpture_big_x1.jpg 1x, images/sculpture_big_x2.jpg 2x">
-                        <source class="main-image" media="(min-width: 681px)" srcset="images/sculpture_medium_x1.jpg 1x, images/sculpture_medium_x2.jpg 2x">
-                        <source class="main-image" media="(max-width: 680px)" srcset="images/sculpture_small_x1.jpg 1x, images/sculpture_small_x2.jpg 2x">
-                        <img class="main-image img-responsive" src="images/sculpture_big_x1.jpg" alt="modern sculpture">
-                    </picture>
-                    <p class="main-paragraph">responsive,<br>clean,<br>easy</p>
-                </div>
-                <div class="col-xs-12 projects-box">
-                    <div class="works">
-                        <p class="works">featured work</p>
+                    <div class="navbar-personal-info">
+                        <h1 class="navbar-h1">guglielmi pasquale</h1>
+                        <p class="h4 navbar-h4">front end student</p>
                     </div>
-                    <div class="col-sm-4 image-box box1">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="navbar-nav-link" href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a class="navbar-nav-link" href="#">about me</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle navbar-nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">contact<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="mailto:guglielmipasquale@yahoo.it" target="_top" class="fa fa-envelope-o navbar-nav-link" aria-hidden="true"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row main-box">
+                    <div class="col-xs-12 main-image-box">
                         <picture>
-                            <source class="image1" media="(min-width: 768px)" srcset="images/lamp_big_x1.jpg 1x, images/lamp_big_x2.jpg 2x">
-                            <source class="image1" media="(max-width: 767px)" srcset="images/lamp_small_x1.jpg 1x, images/lamp_small_x2.jpg 2x">
-                            <img class="image1 img-responsive" src="images/lamp_big_x1.jpg" alt="bulb inside a lamp">
+                            <source class="main-image" media="(min-width: 981px)" srcset="images/sculpture_big_x1.jpg 1x, images/sculpture_big_x2.jpg 2x">
+                            <source class="main-image" media="(min-width: 681px)" srcset="images/sculpture_medium_x1.jpg 1x, images/sculpture_medium_x2.jpg 2x">
+                            <source class="main-image" media="(max-width: 680px)" srcset="images/sculpture_small_x1.jpg 1x, images/sculpture_small_x2.jpg 2x">
+                            <img class="main-image img-responsive" src="images/sculpture_big_x1.jpg" alt="modern sculpture">
                         </picture>
-                        <h2 class="project-h2">project1</h2>
-                        <a href="https://github.com/Pasquale-Guglielmi/fend-project1" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project1</a>
+                        <p class="main-paragraph">responsive,<br>clean,<br>easy</p>
                     </div>
-                    <div class="col-sm-4 image-box box2">
-                        <picture>
-                            <source class="image2" media="(min-width: 768px)" srcset="images/glass_big_x1.jpg 1x, images/glass_big_x2.jpg 2x">
-                            <source class="image2" media="(max-width: 767px)" srcset="images/glass_small_x1.jpg 1x, images/glass_small_x2.jpg 2x">
-                            <img class="image2 img-responsive" src="images/glass_big_x1.jpg" alt="a glass">
-                        </picture>
-                        <h2 class="project-h2">project2</h2>
-                        <a href="https://github.com/Pasquale-Guglielmi/fend-project2" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project2</a>
-                    </div>
-                    <div class="col-sm-4 image-box box3">
-                        <picture>
-                            <source class="image3" media="(min-width: 768px)" srcset="images/bamboo_big_x1.jpg 1x, images/bamboo_big_x2.jpg 2x">
-                            <source class="image3" media="(max-width: 767px)" srcset="images/bamboo_small_x1.jpg 1x, images/bamboo_small_x2.jpg 2x">
-                            <img class="image3 img-responsive" src="images/bamboo_big_x1.jpg" alt="top of a bamboo stick">
-                        </picture>
-                        <h2 class="project-h2">project3</h2>
-                        <a href="https://github.com/Pasquale-Guglielmi/fend-project3" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project3</a>
+                    <div class="col-xs-12 projects-box">
+                        <div class="works">
+                            <p class="works">featured work</p>
+                        </div>
+                        <div class="col-sm-4 image-box box1">
+                            <picture data-toggle="modal" data-target="#project1-modal">
+                                <source class="image1" media="(min-width: 768px)" srcset="images/lamp_big_x1.jpg 1x, images/lamp_big_x2.jpg 2x">
+                                <source class="image1" media="(max-width: 767px)" srcset="images/lamp_small_x1.jpg 1x, images/lamp_small_x2.jpg 2x">
+                                <img class="image1 img-responsive" src="images/lamp_big_x1.jpg" alt="bulb inside a lamp">
+                            </picture>
+                            <h2 class="project-h2">project1</h2>
+                            <a href="https://github.com/Pasquale-Guglielmi/fend-project1" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project1</a>
+                        </div>
+                        <div class="col-sm-4 image-box box2">
+                            <picture data-toggle="modal" data-target="#project2-modal">
+                                <source class="image2" media="(min-width: 768px)" srcset="images/glass_big_x1.jpg 1x, images/glass_big_x2.jpg 2x">
+                                <source class="image2" media="(max-width: 767px)" srcset="images/glass_small_x1.jpg 1x, images/glass_small_x2.jpg 2x">
+                                <img class="image2 img-responsive" src="images/glass_big_x1.jpg" alt="a glass">
+                            </picture>
+                            <h2 class="project-h2">project2</h2>
+                            <a href="https://github.com/Pasquale-Guglielmi/fend-project2" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project2</a>
+                        </div>
+                        <div class="col-sm-4 image-box box3">
+                            <picture data-toggle="modal" data-target="#project3-modal">
+                                <source class="image3" media="(min-width: 768px)" srcset="images/bamboo_big_x1.jpg 1x, images/bamboo_big_x2.jpg 2x">
+                                <source class="image3" media="(max-width: 767px)" srcset="images/bamboo_small_x1.jpg 1x, images/bamboo_small_x2.jpg 2x">
+                                <img class="image3 img-responsive" src="images/bamboo_big_x1.jpg" alt="top of a bamboo stick">
+                            </picture>
+                            <h2 class="project-h2">project3</h2>
+                            <a href="https://github.com/Pasquale-Guglielmi/fend-project3" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project3</a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <a href="https://github.com/Pasquale-Guglielmi" class="fa fa-github footer-link" aria-hidden="true"></a>
+                <a href="https://it.linkedin.com/in/pasquale-guglielmi-8152a663" class="fa fa-linkedin footer-link" aria-hidden="true"></a>
+                <a href="https://www.facebook.com/profile.php?id=100009325692823" class="fa fa-facebook footer-link" aria-hidden="true"></a>
+                <p class="copyright">&#169 copyright 2016 pasquale guglielmi. all rights reserved.</p>
+            </div>
+        </footer>
+        <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+    </body>
+    <!-- Modal -->
+    <div class="modal fade" id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">project 1</h4>
+          </div>
+          <div class="modal-body">
+              <figure>
+                  <picture>
+                      <source>
+                      <img class="img-responsive" src="images/lamp_big.jpg" alt="bulb in a lamp">
+                  </picture>
+                  <figcaption>simple objects can look really beautiful from the right point of view</figcaption>
+              </figure>
+          </div>
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <a href="https://github.com/Pasquale-Guglielmi" class="fa fa-github footer-link" aria-hidden="true"></a>
-            <a href="https://it.linkedin.com/in/pasquale-guglielmi-8152a663" class="fa fa-linkedin footer-link" aria-hidden="true"></a>
-            <a href="https://www.facebook.com/profile.php?id=100009325692823" class="fa fa-facebook footer-link" aria-hidden="true"></a>
-            <p class="copyright">&#169 copyright 2016 pasquale guglielmi. all rights reserved.</p>
+      </div>
+    </div>
+    <div class="modal fade" id="project2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">project 2</h4>
+          </div>
+          <div class="modal-body">
+              <figure>
+                  <picture>
+                      <source>
+                      <img class="img-responsive" src="images/glass_big.jpg" alt="inside of an empty glass">
+                  </picture>
+                  <figcaption>simple objects can look really beautiful from the right point of view</figcaption>
+              </figure>
+          </div>
         </div>
-    </footer>
-    <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-</body>
+      </div>
+    </div>
+    <div class="modal fade" id="project3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">project 3</h4>
+          </div>
+          <div class="modal-body">
+              <figure>
+                  <picture>
+                      <source>
+                      <img class="img-responsive" src="images/bamboo_big.jpg" alt="top of a bamboo stick">
+                  </picture>
+                  <figcaption>simple objects can look really beautiful from the right point of view</figcaption>
+              </figure>
+          </div>
+        </div>
+      </div>
+    </div>
 </html>
