@@ -4,10 +4,20 @@ html {
 
 body {
     background-color: rgb(35, 40, 43);
-    font-family: "Lato", sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
-    font-weight: lighter;
     text-transform: uppercase;
+}
+
+body,
+h1,
+h2,
+h4 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 28px;
 }
 
 /* header styles */
