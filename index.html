@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Portfolio Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -66,12 +66,12 @@
                         </div>
                         <div class="col-sm-4 image-box box1">
                             <picture data-toggle="modal" data-target="#project1-modal">
-                                <source class="image1" media="(min-width: 768px)" srcset="images/lamp_big_x1.jpg 1x, images/lamp_big_x2.jpg 2x">
-                                <source class="image1" media="(max-width: 767px)" srcset="images/lamp_small_x1.jpg 1x, images/lamp_small_x2.jpg 2x">
-                                <img class="image1 img-responsive" src="images/lamp_big_x1.jpg" alt="bulb inside a lamp">
+                                <source class="image1" media="(min-width: 768px)" srcset="images/online_resume_big_x1.jpg 1x, images/online_resume_big_x2.jpg 2x">
+                                <source class="image1" media="(max-width: 767px)" srcset="images/online_resume_small_x1.jpg 1x, images/online_resume_small_x2.jpg 2x">
+                                <img class="image1 img-responsive" src="images/online_resume_big_x1.jpg" alt="my online resume interactive page">
                             </picture>
                             <h2 class="project-h2">project1</h2>
-                            <a href="https://github.com/Pasquale-Guglielmi/fend-project1" class="project-link">https://github.com/Pasquale-Guglielmi/fend-project1</a>
+                            <a href="https://github.com/Pasquale-Guglielmi/fend-project1" class="project-link">https://github.com/Pasquale-Guglielmi/frontend-nanodegree-resume</a>
                         </div>
                         <div class="col-sm-4 image-box box2">
                             <picture data-toggle="modal" data-target="#project2-modal">
@@ -104,7 +104,7 @@
             </div>
         </footer>
         <script   src="https://code.jquery.com/jquery-1.12.3.min.js"   integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="   crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </body>
     <!-- Modal -->
     <div class="modal fade" id="project1-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -117,10 +117,10 @@
           <div class="modal-body">
               <figure>
                   <picture>
-                      <source>
-                      <img class="img-responsive" src="images/lamp_big.jpg" alt="bulb in a lamp">
+                      <source class="img-responsive" srcset="images/online_resume_modal_x1.jpg 1x, images/online_resume_modal_x2.jpg 2x">
+                      <img class="img-responsive" src="images/online_resume_modal_x1.jpg" alt="my online resume on a nexus smartphone">
                   </picture>
-                  <figcaption>simple objects can look really beautiful from the right point of view</figcaption>
+                  <figcaption>My responsive online resume as it looks on a simulated android mobile device</figcaption>
               </figure>
           </div>
         </div>
